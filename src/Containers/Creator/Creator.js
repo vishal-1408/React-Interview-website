@@ -1,8 +1,7 @@
 import React,{Component,createRef} from 'react';
 import axios from 'axios';
 import Spinner from '../../Components/UI/Spinner/Spinner'
-import classes from './Creator.module.css';
-import { Redirect } from 'react-router-dom';
+import classes from './creator.module.css'
 
 
 
