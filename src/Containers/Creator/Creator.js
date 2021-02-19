@@ -40,7 +40,7 @@ class creator extends Component  {
                 return {participants:[...state.participants,...state.selectedParticipants],selectedParticipants:[],loading:true}
             })
             //  const data = await axios.post(process.env.REACT_APP_API_URL,{body});
-            const data = await axios.post(process.env.REACT_APP_API_URL+"/interview",body);
+            const data = await axios.post(process.env.gitREACT_APP_API_URL+"/interview",body);
             this.props.history.replace("/")
             this.setState((state,props)=>{
                 return {loading:false}
