@@ -1,7 +1,7 @@
 import React,{Component,createRef} from 'react';
 import axios from 'axios';
 import Spinner from '../../Components/UI/Spinner/Spinner'
-import classes from './creator.module.css'
+import classes from './CreatorCSS.module.css'
 
 
 

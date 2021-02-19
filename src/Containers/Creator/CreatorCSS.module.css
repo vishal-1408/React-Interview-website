@@ -1,0 +1,12 @@
+.main{
+    padding:100px
+ }
+
+.participantsBox{
+    display: flex;
+    justify-content:baseline;
+}
+
+.selected{
+    margin-right: 20px;
+}
