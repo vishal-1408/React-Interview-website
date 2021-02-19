@@ -1,0 +1,17 @@
+.main{
+   padding:100px
+}
+
+.noInterviews{
+    padding:20%;
+}
+
+.participants ul{
+   list-style-type:decimal;
+}
+
+.row{
+    border:1px solid orange;
+    padding:10px;
+    margin:5px;
+}
